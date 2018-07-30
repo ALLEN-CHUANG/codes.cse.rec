@@ -40,7 +40,7 @@ int main(int argc, char **argv){
 
         printf("Usage:\n");
         printf("\n[NERANK]\n");
-        printf("./nerank -train net.txt -save rep.txt -dimensions 64 -sample_times 10 -alpha 0.025 -threads 1\n");
+        printf("./nerank -train net.txt -field field.txt -walk_steps 2 -save rep.txt -dimensions 64 -sample_times 10 -alpha 0.025 -threads 1\n");
 
         return 0;
     }
