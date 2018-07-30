@@ -14,7 +14,7 @@ $ make
 ```
 
 # Task
-Given a network input:
+Given a network input **net.txt**:
 ```txt
 userA itemA 3
 userA itemC 5
@@ -22,7 +22,7 @@ userB itemA 1
 userB itemB 5
 userC itemA 4
 ```
-and a input for specifying the fiels:
+and a input for specifying the fields **field.txt**:
 ```
 userA u
 userB u
